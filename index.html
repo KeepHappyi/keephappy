@@ -1,0 +1,540 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>—旅行者—导航</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/themify-icons.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/RLbootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/RLclndr.css">
+    <link rel="stylesheet" href="assets/css/spig.css">
+</head>
+    <!--网页精灵 start*-->
+    <div id="spig" class="spig">
+        <div id="message">……</div>
+        <div id="aila" class="aila"></div>
+    </div>
+
+    <script type="text/javascript">
+    var isindex=true;
+    var title="keephappy个人网页";
+    var visitor="开心就好";
+    </script>
+    <!--网页精灵 end*-->
+<body>
+    <header>
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <!-- Time Start-->
+                                <script>
+                                    Date.prototype.format = function (fmt) {
+                                        var o = {
+                                            "y+": this.getFullYear, //年
+                                            "M+": this.getMonth() + 1, //月份
+                                            "d+": this.getDate(), //日
+                                            "h+": this.getHours(), //小时
+                                            "m+": this.getMinutes(), //分
+                                            "s+": this.getSeconds() //秒
+                                        };
+                                        if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+                                        for (var k in o)
+                                            if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+                                        return fmt;
+                                    }
+                                    setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-MM-dd hh:mm:ss');", 1000);
+                                </script>
+                                <div id="dateTime"></div>
+                                <!-- Time End -->
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                            <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="event.html">Music</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="#">Blog</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="events_details.html">Events Details</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">网页元素</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <!-- Button -->
+                                            <li class="button-header">
+                                                <a href="https://th.bing.com/th/id/R45f915899278f7f8937bc402bc732020?rik=%2ftsXqOoxoNyLiQ&riu=http%3a%2f%2fimgres.qi58.com%2fqi58%2f21%2f103827-202008271036155f471c1f37d6d.jpg&ehk=HBn0TlXpiXTFo4nEmP9Cnztl4DxmQsQvrNqWrDF%2bgTg%3d&risl=&pid=ImgRaw" class="header-btn">
+                                                <i class="fab fa-medapps"></i>  QQ：2362760448</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--? slider Area Start-->
+        <div class="slider-area fix">
+            <div class="slider-active">
+                <div class="single-slider">
+                    <div class="container">
+                        <div class="row justify-content-center">
+        <!-- Calender Start
+        <div class="col-md-4 span_7">
+            <div class="cal1 cal_2"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">July 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day adjacent-month last-month calendar-day-2015-06-28"><div class="day-contents">28</div></td><td class="day adjacent-month last-month calendar-day-2015-06-29"><div class="day-contents">29</div></td><td class="day adjacent-month last-month calendar-day-2015-06-30"><div class="day-contents">30</div></td><td class="day calendar-day-2015-07-01"><div class="day-contents">1</div></td><td class="day calendar-day-2015-07-02"><div class="day-contents">2</div></td><td class="day calendar-day-2015-07-03"><div class="day-contents">3</div></td><td class="day calendar-day-2015-07-04"><div class="day-contents">4</div></td></tr><tr><td class="day calendar-day-2015-07-05"><div class="day-contents">5</div></td><td class="day calendar-day-2015-07-06"><div class="day-contents">6</div></td><td class="day calendar-day-2015-07-07"><div class="day-contents">7</div></td><td class="day calendar-day-2015-07-08"><div class="day-contents">8</div></td><td class="day calendar-day-2015-07-09"><div class="day-contents">9</div></td><td class="day calendar-day-2015-07-10"><div class="day-contents">10</div></td><td class="day calendar-day-2015-07-11"><div class="day-contents">11</div></td></tr><tr><td class="day calendar-day-2015-07-12"><div class="day-contents">12</div></td><td class="day calendar-day-2015-07-13"><div class="day-contents">13</div></td><td class="day calendar-day-2015-07-14"><div class="day-contents">14</div></td><td class="day calendar-day-2015-07-15"><div class="day-contents">15</div></td><td class="day calendar-day-2015-07-16"><div class="day-contents">16</div></td><td class="day calendar-day-2015-07-17"><div class="day-contents">17</div></td><td class="day calendar-day-2015-07-18"><div class="day-contents">18</div></td></tr><tr><td class="day calendar-day-2015-07-19"><div class="day-contents">19</div></td><td class="day calendar-day-2015-07-20"><div class="day-contents">20</div></td><td class="day calendar-day-2015-07-21"><div class="day-contents">21</div></td><td class="day calendar-day-2015-07-22"><div class="day-contents">22</div></td><td class="day calendar-day-2015-07-23"><div class="day-contents">23</div></td><td class="day calendar-day-2015-07-24"><div class="day-contents">24</div></td><td class="day calendar-day-2015-07-25"><div class="day-contents">25</div></td></tr><tr><td class="day calendar-day-2015-07-26"><div class="day-contents">26</div></td><td class="day calendar-day-2015-07-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-07-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-07-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-07-30"><div class="day-contents">30</div></td><td class="day calendar-day-2015-07-31"><div class="day-contents">31</div></td><td class="day adjacent-month next-month calendar-day-2015-08-01"><div class="day-contents">1</div></td></tr></tbody></table></div></div>
+        </div>
+        Calender End -->
+                            <div class="col-xl-8 col-lg-8 col-md-9 col-sm-12">
+                                <div class="hero__caption text-center">
+                                    <h1 data-animation="fadeInUp" data-delay="0.1s">KeepHappy<dd>打造页面精美的导航网页</dd></h1>
+                                    <p data-animation="fadeInUp" data-delay="0.6s">让我们开始浏览吧o(*￣▽￣*)ブ</p>
+                                    <!-- <a href="https://cn.bing.com" class="btn slider-btn " data-animation="bounceIn" data-delay="1s">必应搜索</a> -->
+                            <!-- 搜索框 开始 -->
+                                    <input  class="search-txt" type="text" placeholder="输入要搜索的内容" data-animation="bounceIn" data-delay="0.5s" style="width:300px; height:26px">
+                                    <h3></h3>
+                                    <div data-animation="bounceIn" data-delay="0.8s">
+                                        <a href="#" class="bingsearch">
+                                            <button type="button" style="margin-right: 16px">
+                                            <i>必应搜索</i>
+                                            </button>
+                                        </a>
+                                        <a href="#" class="baidusearch">
+                                            <button type="button" style="margin-left: 16px">
+                                            <i>百度搜索</i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                                    <script>
+                                    var text = document.querySelector(".search-txt");
+                                    var bingsear = document.querySelector(".bingsearch");
+                                    var baidusear = document.querySelector(".baidusearch");
+                                    function BINGsearch() {
+                                        var textcontent = text.value;
+                                        location.href = "https://cn.bing.com/search?q="+textcontent;
+                                    }
+                                    function BAIDUsearch() {
+                                        var textcontent = text.value;
+                                        location.href = "https://www.baidu.com/s?wd="+textcontent;
+                                    }
+                                    bingsear.addEventListener("click",BINGsearch);
+                                    baidusear.addEventListener("click",BAIDUsearch);
+                                    </script>
+                            <!-- 搜索框 结束 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="car-img slider-bg1 slider-height d-flex justify-content-center align-items-end">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-xl-10 col-lg-8 col-md-8 col-sm-8">
+                            <div class="car running">
+                                <img src="assets/img/hero/car.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider Area End-->
+        <!--? services area start -->
+        <section class="services-section section-padding">
+            <!-- 搜索网站 -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-5">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-45 ">
+                            <span>选择想要跳转的网站</span>
+                            <h2>实用的网站</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-active">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/zhihu.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3><a href="events_details.html"> 知乎 </a></h3>
+                                    <span class="price">1</span>
+                                </div>
+                                <p><a href="https://www.zhihu.com">点我跳转</a>有问题，就可能会有答案</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/csdn.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3> <a href="events_details.html"> CSDN博客 </a></h3>
+                                    <span class="price">2</span>
+                                </div>
+                                <p><a href="https://www.csdn.net">点我跳转</a>可以搜一些与编程有关的问题</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/services5.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3> <a href="events_details.html"> 学吧导航 </a></h3>
+                                    <span class="price">3</span>
+                                </div>
+                                <p><a href="https://www.xue8nav.com">点我跳转</a>学习导航网站</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/services3.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3> <a href="events_details.html"> 科塔学术 </a></h3>
+                                    <span class="price">4</span>
+                                </div>
+                                <p><a href="https://site.sciping.com">点击跳转</a>学术资源导航网站</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 视频网站 -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-5">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-45 ">
+                            <h2>视频网站</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-active">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/bilibili.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3><a href="events_details.html"> 哔哩哔哩Bilibili </a></h3>
+                                    <span class="price">1</span>
+                                </div>
+                                <p><a href="https://www.bilibili.com">点我跳转</a>国内知名的视频网站</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/xigua.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3> <a href="events_details.html"> 西瓜视频 </a></h3>
+                                    <span class="price">2</span>
+                                </div>
+                                <p><a href="https://www.ixigua.com">点我跳转</a>免费的视频网站</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/duolaAmeng.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3> <a href="events_details.html"> AGE动漫 </a></h3>
+                                    <span class="price">3</span>
+                                </div>
+                                <p><a href="https://www.agemys.com/">点我跳转</a>免费看动漫的网站</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="single-cat mb-30">
+                            <div class="cat-img">
+                                <img src="assets/img/gallery/youku.jpg" alt="">
+                            </div>
+                            <div class="cat-cap">
+                                <div class="pricing d-flex justify-content-between">
+                                    <h3> <a href="events_details.html"> 优酷视频 </a></h3>
+                                    <span class="price">4</span>
+                                </div>
+                                <p><a href="https://www.youku.com">点击跳转</a>国内的视频网站</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services End -->
+        <!--? About -->
+        <div class="support-company-area bottom-padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-6 col-lg-6 col-md-10">
+                        <div class="support-location-img">
+                            <img src="assets/img/gallery/Ameng.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-10">
+                        <div class="right-caption">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle">
+                                <span>关于导航</span>
+                                <h2>正在找实用的网站中......</h2>
+                            </div>
+                            <div class="support-caption">
+                                <p class="mb-50">我觉得目前这些导航暂时完全够用，等有需要再继续添加。</p>
+                                <a href="about.html" class="btn about-btn">更多介绍</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About Area End-->
+        <!-- 主页视频 -->
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-7 col-md-10">
+                <div class="section-tittle  text-center mb-40">
+                    <span>video视频</span>
+                    <h2>自己弄的视频</h2>
+                </div>
+            </div>
+        </div>
+        <!--? video_start -->
+        <div class="bottom-padding">
+            <div class="container">
+                <div class="video-area section-img-bg2 d-flex align-items-center" data-background="assets/img/gallery/video-bg.jpg">
+                    <div class="video-wrap">
+                        <div class="video-icon">
+                            <a class="popup-video" href="assets/img/video/home_video.mp4">
+                                <img src="assets/img/icon/play-butto.svg" alt="">
+                            </a>
+                        </div>
+                        <h3>来看看吧(p≧w≦q)</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- video_end -->
+        <!--? instagram-social start -->
+        <div class="instagram-area fix">
+            <div class="container-fluid p-0">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="instagram-active owl-carousel">
+                            <div class="single-instagram">
+                                <img src="assets/img/gallery/instra1.jpg" alt="">
+                                <a href="assets/img/gallery/instra1.jpg"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single-instagram">
+                                <img src="assets/img/gallery/instra2.jpg" alt="">
+                                <a href="assets/img/gallery/instra2.jpg"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single-instagram">
+                                <img src="assets/img/gallery/instra3.jpg" alt="">
+                                <a href="assets/img/gallery/instra3.jpg"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single-instagram">
+                                <img src="assets/img/gallery/instra4.jpg" alt="">
+                                <a href="assets/img/gallery/instra4.jpg"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single-instagram">
+                                <img src="assets/img/gallery/instra5.jpg" alt="">
+                                <a href="assets/img/gallery/instra5.jpg"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single-instagram">
+                                <img src="assets/img/gallery/instra6.jpg" alt="">
+                                <a href="assets/img/gallery/instra6.jpg"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- instagram-social End -->
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-area footer-padding">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <!-- logo -->
+                                    <div class="footer-logo mb-35">
+                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    </div>
+                                    <div class="footer-tittle">
+                                        <div class="footer-pera">
+                                            <p>我会继续完善此网页，(ง •_•)ง</p>
+                                        </div>
+                                        <!-- social -->
+                                        <div class="footer-social">
+                                            <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                            <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-square"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            <a href="#"><i class="fab fa-pinterest-square"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Navigation</h4>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">Music</a></li>
+                                        <li><a href="#">About</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>Services</h4>
+                                    <ul>
+                                        <li><a href="graph.html">生成图表</a></li>
+                                        <li><a href="map.html">英文版世界地图</a></li>
+                                        <li><a href="xiangce.html">3D旋转立方相册</a></li>
+                                        <li><a href="colorTool.html">RGB网页颜色取色器</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle mb-20">
+                                    <h4>Contact Me</h4>
+                                    <p>充满好奇心的“开心就好”</p>
+                                    <p>2362760448@qq.com</p>
+                                </div>
+                                <ul class="mb-20">
+                                    <li class="number"><a href="https://th.bing.com/th/id/R45f915899278f7f8937bc402bc732020?rik=%2ftsXqOoxoNyLiQ&riu=http%3a%2f%2fimgres.qi58.com%2fqi58%2f21%2f103827-202008271036155f471c1f37d6d.jpg&ehk=HBn0TlXpiXTFo4nEmP9Cnztl4DxmQsQvrNqWrDF%2bgTg%3d&risl=&pid=ImgRaw">QQ：2362760448</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-bottom area -->
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="footer-border">
+                        <div class="row">
+                            <div class="col-xl-12 ">
+                                <div class="footer-copy-right text-center">
+                                    <p>designed in <script>document.write(new Date().getFullYear());</script>This template is changed by “开心就好” <i class="fas fa-code" aria-hidden="true"></i> —— <a href="#" target="_blank" rel="nofollow noopener">创建新的页面</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+    <!-- wow, Mobile Menu -->
+    <script src="./assets/js/wow.min.js"></script>
+    <script src="./assets/js/jquery.magnific-popup.js"></script>
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
+
+    <!-- counter , waypoint ,Nice-select -->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <script src="./assets/js/waypoints.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+
+    <!-- contact js -->
+    <script src="./assets/js/contact.js"></script>
+    <script src="./assets/js/jquery.form.js"></script>
+    <script src="./assets/js/jquery.validate.min.js"></script>
+    <script src="./assets/js/mail-script.js"></script>
+    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+    <!-- Plugins, main-Jquery -->
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Calender js -->
+    <script src="./assets/js/RLjquery.min.js"></script>
+    <script src="./assets/js/RLunderscore-min.js"></script>
+    <script src= "./assets/js/RLmoment-2.2.1.js"></script>
+    <script src="./assets/js/RLclndr.js"></script>
+    <script src="./assets/js/RLsite.js"></script>
+
+    <!-- Web elves js -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/spig.js"></script>
+</body>
+</html>
