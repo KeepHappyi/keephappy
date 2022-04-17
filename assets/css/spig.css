@@ -3,9 +3,9 @@
     width:175px;
     height:246px;
     position:absolute;
-    bottom: 300px;
-    left:180px;
-    z-index:9999;
+    bottom: auto;
+    /* left:180px; */
+    /* z-index:9999; */
 }
 
 #message{

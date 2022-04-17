@@ -11,7 +11,7 @@
 }
 
 .row {
-    width: 100%;
+    width{height: auto; width: auto\9; width:100%;};
 }
 
 .vbar_gap {
