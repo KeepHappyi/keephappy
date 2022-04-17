@@ -1,6 +1,6 @@
 (function ($)
   { "use strict"
-  
+
 
 /* 1. sticky And Scroll UP */
     $(window).on('scroll', function () {
@@ -21,7 +21,7 @@
       }, 800);
       return false;
     });
-  
+
 
 /* 3. slick Nav */
 // mobile_menu
@@ -53,7 +53,7 @@
         autoplaySpeed: 4000,
         dots: false,
         fade: true,
-        arrows: false, 
+        arrows: false,
         prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',
         responsive: [{
@@ -102,7 +102,7 @@
     mainSlider();
 
 
-    
+
 /* 5. Testimonial Active*/
   var testimonial = $('.h1-testimonial-active');
   if(testimonial.length){
@@ -150,7 +150,7 @@
   }
 
 
-  
+
 
 // 4. Single Img slder
   $('.services-active').slick({
@@ -204,7 +204,7 @@
 
 
 
-    
+
 /* 9. Gallery Active */
     var client_list = $('.instagram-active');
     if(client_list.length){
@@ -299,7 +299,7 @@
 /* 10. WOW active */
     new WOW().init();
 
-// 11. ---- Mailchimp js --------//  
+// 11. ---- Mailchimp js --------//
     function mailChimp() {
       $('#mc_embed_signup').find('form').ajaxChimp();
     }
@@ -329,6 +329,20 @@
       delay: 10,
       time: 3000
     });
+
+  document.documentElement.addEventListener('touchstart', function (event) {
+  if (event.touches.length > 1) {
+    event.preventDefault();
+  }
+  }, false);
+  var lastTouchEnd = 0;
+document.documentElement.addEventListener('touchend', function (event) {
+  var now = Date.now();
+  if (now - lastTouchEnd <= 300) {
+    event.preventDefault();
+  }
+  lastTouchEnd = now;
+}, false);
 
 
 })(jQuery);
