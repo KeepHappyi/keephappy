@@ -240,12 +240,12 @@ hr {
 	border-radius: 50%;
 	font-size: 23px;
   }
-  
+
   /* line 321, C:/xampp/htdocs/anthony HTML - preview/scss/theme-default.scss */
   #scrollUp:hover i {
 	animation: none;
   }
-  
+
   @media (max-width: 767px) {
 	/* line 308, C:/xampp/htdocs/anthony HTML - preview/scss/theme-default.scss */
 	#scrollUp {
@@ -253,7 +253,7 @@ hr {
 	  bottom: 20px;
 	}
   }
-  
+
   /* line 329, C:/xampp/htdocs/anthony HTML - preview/scss/theme-default.scss */
   #scrollUp i {
 	-webkit-animation: bounce 3s infinite ease-in-out;
@@ -266,7 +266,7 @@ hr {
 	top: 16px;
 	position: relative;
   }
-  
+
   @-webkit-keyframes bounce {
 	0% {
 	  transform: translateY(-3px);
@@ -278,7 +278,7 @@ hr {
 	  transform: translateY(-3px);
 	}
   }
-  
+
   @keyframes bounce {
 	0% {
 	  transform: translateY(-3px);
@@ -290,7 +290,7 @@ hr {
 	  transform: translateY(-3px);
 	}
   }
-  
+
 
 /* Sticky*/
 	.sticky-bar {
@@ -371,7 +371,7 @@ hr {
 		100% {
 		-webkit-transform: translateY(-20px);
 		transform: translateY(-20px); } }
-		
+
 /* heartbeat */
 	.heartbeat {
 		animation: heartbeat 1s infinite alternate;
@@ -419,25 +419,25 @@ hr {
 		outline: 0;
 	}
 
-// Running left to right  
+// Running left to right
 	.running {
-		animation: 
-		//   pulse 3s ease infinite alternate, 
+		animation:
+		//   pulse 3s ease infinite alternate,
 		  nudge 10s linear infinite alternate;
 	  }
-	  
+
 	  @keyframes nudge {
 		0%, 100% {
 		  transform: translate(0, 0);
 		}
-		
+
 		50% {
 		  transform: translate(-100px, 0);
 		  	@media #{$xs}{
 				transform: translate(-50px, 0) !important;
 			}
 		}
-		
+
 		80% {
 		  transform: translate(100px, 0);
 		  	@media #{$xs}{
@@ -445,7 +445,7 @@ hr {
 			}
 		}
 	  }
-	
+
 
 .nice-select {
 	line-height: 30px;
@@ -511,7 +511,7 @@ hr {
 		@media #{$xs}{
 			padding-top: 70px;
 		}
-	}	
+	}
 	.top-padding2{
 		padding-top: 80px;
 		@media #{$md}{
@@ -523,7 +523,7 @@ hr {
 		@media #{$xs}{
 			padding-top: 70px;
 		}
-	}	
+	}
 	.bottom-padding{
 		padding-bottom: 120px;
 		@media #{$md}{
@@ -535,7 +535,7 @@ hr {
 		@media #{$xs}{
 			padding-bottom: 70px;
 		}
-	}	
+	}
 	.bottom-padding2{
 		padding-bottom: 90px;
 		@media #{$md}{
@@ -547,7 +547,7 @@ hr {
 		@media #{$xs}{
 			padding-bottom: 70px;
 		}
-	}	
+	}
 	.testimonial-padding{
 		padding-top: 139px;
 		padding-bottom: 130px;
@@ -563,7 +563,7 @@ hr {
 			padding-top: 90px;
 			padding-bottom: 70px;
 		}
-	}	
+	}
 	.w-padding{
 		padding-top: 85px;
 		padding-bottom: 80px;
@@ -699,17 +699,17 @@ hr {
 			text-decoration: underline;
 		}
 	}
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+}
 
 
 .section-img-bg{
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 }
 .section-img-bg2{
-	background-size: cover;
+	background-size: 100% 100%;
 	// background-position:center;
     background-repeat: no-repeat;
 }
