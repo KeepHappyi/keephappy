@@ -17,7 +17,7 @@
 
 .slider-height2{
     height: 440px;
-    background-size: 100% 100%;
+    background-size: cover;
     @media #{$lg}{
         height: 440px;
     }
@@ -34,7 +34,7 @@
 
 .slider-height3{
     height: 650px;
-    background-size: 100% 100%;
+    background-size: cover;
     @media #{$lg}{
         height: 540px;
     }
@@ -54,7 +54,7 @@
     background-image: url(../img/hero/h1_hero1.png);
     background-repeat:no-repeat ;
     background-position: top center;
-    background-size: 100% 100%;
+    background-size: cover;
 
     margin-top:-50px;
     @media #{$sm}{
@@ -69,7 +69,7 @@
     background-image: url(../img/hero/h1_hero2.jpg);
     background-repeat:no-repeat ;
     background-position: top center;
-    background-size: 100% 100%;
+    background-size: cover;
     &.slider-bg3{
         background-image: url(../img/hero/h1_hero3.jpg);
     }
